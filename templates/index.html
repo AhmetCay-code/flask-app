@@ -19,7 +19,7 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="/predict" method="post">
-    	<input type="number" step="0.1" min="35" max="42" name="ATES" placeholder="ATES GİRİNİZ (35.0-42.0 ARASI)" required="required" />
+    	<input type="number" min="350" max="420" name="ATES" placeholder="ATES GİRİNİZ (350-420 ARASI, ATEŞ x 10 YAPARAK GİRİNİZ!)" required="required" />
         <input type="number" min="0" max="1" name="BULANTI" placeholder="BULANTI" required="required" />
 		<input type="number" min="0" max="1" name="BEL-AGRI" placeholder="BEL-AGRI" required="required" />
 		<input type="number" min="0" max="1" name="SUREKLI-WC" placeholder="SUREKLI-WC" required="required" />
