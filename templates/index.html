@@ -19,12 +19,12 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="/predict" method="post">
-    	<input type="number" min="350" max="420" name="ATES" placeholder="ATES GİRİNİZ(350-420 ARASI, ATEŞ x 10 YAPARAK GİRİNİZ!)" required="required" />
+    	<input type="number" min="350" max="420" name="ATES" placeholder="ATES GİRİNİZ(350-420 ARASI,ATEŞ x 10 YAPARAK GİRİNİZ)" required="required" />
         <input type="number" min="0" max="1" name="BULANTI" placeholder="BULANTI" required="required" />
-		<input type="number" min="0" max="1" name="BEL-AGRISI" placeholder="BEL-AGRISI VAR İSE "1", YOK İSE "0" YAZINIZ " required="required" />
-		<input type="number" min="0" max="1" name="SUREKLI-WC" placeholder="SUREKLI WC'YE GİTME VAR İSE "1", YOK İSE "0" YAZINIZ" required="required" />
-		<input type="number" min="0" max="1" name="IDRAR-SIRASINDA-AGRI" placeholder="IDRAR-SIRASINDA-AGRI VAR İSE "1", YOK İSE "0" YAZINIZ" required="required" />
-		<input type="number" min="0" max="1" name="URETREDA-YANMA-SISME-KASINTI" placeholder="URETREDA-YANMA-SISME-KASINTI VAR İSE "1", YOK İSE "0" YAZINIZ" required="required" />
+		<input type="number" min="0" max="1" name="BEL-AGRISI" placeholder="BEL-AGRISI VAR İSE 1, YOK İSE 0 YAZINIZ " required="required" />
+		<input type="number" min="0" max="1" name="SUREKLI-WC" placeholder="SUREKLI WC'YE GİTME VAR İSE 1, YOK İSE 0 YAZINIZ" required="required" />
+		<input type="number" min="0" max="1" name="IDRAR-SIRASINDA-AGRI" placeholder="IDRAR-SIRASINDA-AGRI VAR İSE 1, YOK İSE 0 YAZINIZ" required="required" />
+		<input type="number" min="0" max="1" name="URETREDA-YANMA-SISME-KASINTI" placeholder="URETREDA-YANMA-SISME-KASINTI VAR İSE 1, YOK İSE 0 YAZINIZ" required="required" />
     
         <button type="submit" class="btn btn-primary btn-block btn-large"> Predict </button>
          
